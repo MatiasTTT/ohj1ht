@@ -6,9 +6,9 @@ Poista sitten *kaikki* suluilla merkityt kohdat.)
 
 ## Tietoja 
 
-Tekijä: (Etunimi Sukunimi)
+Tekijä: (Matias Turpeinen)
 
-Työ git-varaston osoite: <https://gitlab.jyu.fi/anlakane/ohj1ht> (*Korvaa* tämä osoite oman git-varastosi osoitteella)
+Työ git-varaston osoite: <https://github.com/MatiasTTT/ohj1ht> (*Korvaa* tämä osoite oman git-varastosi osoitteella)
 
 Pelin nimi: (Nimi)
 
