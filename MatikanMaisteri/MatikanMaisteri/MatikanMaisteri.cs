@@ -1,10 +1,4 @@
-using System;
-using System.Collections.Generic;
-using System.Xml;
 using Jypeli;
-using Jypeli.Assets;
-using Jypeli.Controls;
-using Jypeli.Widgets;
 
 namespace MatikanMaisteri;
 
@@ -18,7 +12,7 @@ public class MatikanMaisteri : PhysicsGame
     private PhysicsObject[] _tiiliRivi; // Tiilirivi edustaa edistymistä.
     private (string kysymys, int vastaus) _nykyinenLasku; // Säilyttää sen hetkisen laskun sekä ennalta määritetyn vastauksen.
     private InputBox _pelaajanVastausLaatikko; // Ottaa vastaan pelaajan syöttämän vastauksen.
-    private int _nykyinenTiili = 0; // Alustettu täällä kun muuten arvo nollaantuu eikä eteneminen toimi.
+    private int _nykyinenTiili; // Alustettu täällä kun muuten arvo nollaantuu eikä eteneminen toimi.
 
     /// <summary>
     /// Käynnistää pelin ja luo taustakuvat, sekä kutsuu aliohjelmat.
