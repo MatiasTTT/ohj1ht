@@ -1,51 +1,53 @@
 # Harjoitustyön suunnitelma
 
-(Täydennä oman pelisi tiedot tähän tiedostoon muokkaamalla 
-tiedostoa tekstieditorissa. Käytä [Markdown-syntaksia](https://about.gitlab.com/handbook/markdown-guide/).
-Poista sitten *kaikki* suluilla merkityt kohdat.)
+## Tietoja
 
-## Tietoja 
+**Tekijä:** Matias Turpeinen  
 
-Tekijä: (Etunimi Sukunimi)
+**Työ git-varaston osoite:** [https://github.com/MatiasTTT/ohj1ht](https://github.com/MatiasTTT/ohj1ht)  
 
-Työ git-varaston osoite: <https://gitlab.jyu.fi/anlakane/ohj1ht> (*Korvaa* tämä osoite oman git-varastosi osoitteella)
+**Pelin nimi:** MatikanMaisteri  
 
-Pelin nimi: (Nimi)
+**Pelialusta:** Windows  
 
-Pelialusta: Windows/macOS/Linux (Valitse alusta)
+**Pelaajien lukumäärä:** 1  
 
-Pelaajien lukumäärä: 1/2/3/4 (Valitse pelaajien lukumäärä)
+---
 
 ## Pelin tarina
 
-(Pelin tarina.)
+Pelaaja on MatikanMaisteri, jonka tehtävänä on ratkaista päässälaskuja ja edetä sinisten tiilien polulla
+alusta loppuun saakka. Jokaisesta oikein ratkaistusta laskusta pelaaja etenee yhden askeleen eteenpäin polulla.  
+Kun pelaaja on vastannut oikein kymmeneen laskuun, polku on värjäytynyt kokonaan vihreäksi ja hän voittaa pelin.  
+Jos vastaus on väärä, pelaaja pysyy paikallaan ja saa uuden kysymyksen.
+
+---
 
 ## Pelin idea ja tavoitteet
 
-(Pelin idea ja tavoitteet.)
+- Pelaajalle näytetään satunnainen lasku listasta (esim. yhteen-, vähennys-, kerto- tai jakolasku).  
+- Pelaaja syöttää vastauksensa näppäimistön kautta ja painaa **Enter**.  
+- Jos vastaus on oikein → pelaaja siirtyy yhden tiilen eteenpäin.  
+- Jos vastaus on väärin → pelaaja ei liiku ja saa uuden laskun.  
+- Peli etenee näin, kunnes pelaaja on ratkaissut **10 laskua oikein**.  
+- Kun kaikki 10 askelta polulla on suoritettu, polku on täynnä ja peli päättyy **voittoon**.  
+
+---
 
 ## Hahmotelma pelistä
 
-(Kun olet lisännyt suunnitelmakuvan tähän hakemistoon, linkitä se tähän alle. Alla on esimerkkikuvan linkitys.)
 
-![Esimerkkikuva](esimerkkikuva.png "Esimerkkikuva")
+![Hahmotelma](hahmotelma.png "MatikanMaisteri hahmotelma")
+
+---
 
 ## Toteutuksen suunnitelma
 
-Helmikuu
+### Lokakuu
 
-- (Tavoite 1)
-- (Tavoite 2)
-- (Tavoite 3)
-
-Maaliskuu
-
-- (Tavoite 1)
-- (Tavoite 2)
-- (Tavoite 3)
-
-Jos aikaa jää
-
-- (Tavoite 1)
-- (Tavoite 2)
-- (Tavoite 3)
+- Projektin luonti Jypelillä ja perusnäkymän rakennus (laskualue, vastauskenttä ja polku).  
+- Lista toteutus laskujen ja vastausten osalta.  
+- Satunnaisen laskun arvonnan ja sen pelaajalle näyttämisen tekeminen.  
+- Vastausten tarkistuksen toteutus.  
+- Etenemislogiikan lisäys: oikeasta vastauksesta siirtyminen seuraavaan laatikkoon.  
+- Jonkinlainen voittotarkistuksen toteutus, kun pelaaja on saavuttanut kymmenennen tiilen.
